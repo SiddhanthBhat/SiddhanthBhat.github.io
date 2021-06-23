@@ -49,7 +49,7 @@
 body {
   margin: 0;
   font-family: 'Yanone Kaffeesatz', sans-serif;
-  background-image: url("./Background.png");
+  background-image: url("./Pictures/whackground.png"); /*for some reeason github doesnt allow you to set the file name to background, its whack*/
   font-weight: 800;
 }
 
