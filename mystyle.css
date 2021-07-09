@@ -13,6 +13,11 @@
     border-radius: 3px;
   }
 
+  p{
+    color: white ;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+  }
+
 /* Button is for Main webpage navigation*/
   #button {
     background-color: #78BFA5;
@@ -120,3 +125,8 @@ nav a:hover::before {
   width: 100%;
 }
 
+blog li { 
+  display:inline-flex;
+  margin-left: 25px;
+  padding-top: 15px;
+}
