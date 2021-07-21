@@ -54,7 +54,6 @@
 body {
   margin: 0;
   font-family: 'Yanone Kaffeesatz', sans-serif;
-  background-image: url("./Pictures/whackground.png"); /*for some reeason github doesnt allow you to set the file name to background, its whack*/
   font-weight: 800;
 }
 
@@ -64,7 +63,7 @@ body {
 }
 
 header {
-  background: #5CDB95;
+  ;
 }
 
 header::after {
@@ -97,7 +96,7 @@ nav li {
 }
 
 nav a {
-  color: #05386B;
+  color: #ffffff;
   text-decoration: none;
   font-family: 'Yanone Kaffeesatz', sans-serif;
   text-transform: uppercase;
@@ -105,7 +104,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #0860b9;
+  color: #02C39A;
 }
 
 nav a::before {
