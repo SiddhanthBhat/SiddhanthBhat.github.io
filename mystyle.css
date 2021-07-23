@@ -4,8 +4,8 @@
   h1 {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     margin-right: 20px;
-    background-color:#03A6A6;
-    color:Black;
+    background-color:#05668d;
+    color:white;
     padding: 10px 15px;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-weight: bold;
@@ -16,6 +16,8 @@
   p{
     color: white ;
     font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: x-large;
+    line-height: 110%;
   }
 
 /* Button is for Main webpage navigation*/
