@@ -58,6 +58,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
   display: block; }
 
 body {
+  overflow-x: hidden;
   margin: 0;
   font-family: "Inter UI", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1rem;
@@ -65,7 +66,7 @@ body {
   line-height: 1.5;
   color: #CFD8DC;
   text-align: left;
-  background-color: #000000; }
+  background-color: #141414; }
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -3306,7 +3307,8 @@ input[type="button"].btn-block {
   border-radius: 0.3rem; }
   .card > hr {
     margin-right: 0;
-    margin-left: 0; }
+    margin-left: 0;
+     }
   .card > .list-group:first-child .list-group-item:first-child {
     border-top-left-radius: 0.3rem;
     border-top-right-radius: 0.3rem; }
@@ -3317,7 +3319,8 @@ input[type="button"].btn-block {
 .card-body {
   -ms-flex: 1 1 auto;
       flex: 1 1 auto;
-  padding: 1.25rem; }
+  padding: 1.25rem;
+ }
 
 .card-title {
   margin-bottom: 0.75rem; }
