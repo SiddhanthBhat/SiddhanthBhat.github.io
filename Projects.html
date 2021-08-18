@@ -21,7 +21,22 @@
     <link rel="stylesheet" href="css/default.css" id="theme-color">
 </head>
 <body>
-
+<!--Page Transition-->
+<div class="loader loader--active">
+    <div class="loader__icon">
+      <svg id="loader-1" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
+        <path opacity="0.2" fill="#000" d="M20.201,5.169c-8.254,0-14.946,6.692-14.946,14.946c0,8.255,6.692,14.946,14.946,14.946s14.946-6.691,14.946-14.946C35.146,11.861,28.455,5.169,20.201,5.169z M20.201,31.749c-6.425,0-11.634-5.208-11.634-11.634c0-6.425,5.209-11.634,11.634-11.634c6.425,0,11.633,5.209,11.633,11.634C31.834,26.541,26.626,31.749,20.201,31.749z"></path>
+        <path fill="#000" d="M26.013,10.047l1.654-2.866c-2.198-1.272-4.743-2.012-7.466-2.012h0v3.312h0C22.32,8.481,24.301,9.057,26.013,10.047z"></path>
+        <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 20 20" to="360 20 20" dur="0.5s" repeatCount="indefinite"></animateTransform>
+      </svg>
+    </div>
+    <div class="loader__tile"></div>
+    <div class="loader__tile"></div>
+    <div class="loader__tile"></div>
+    <div class="loader__tile"></div>
+    <div class="loader__tile"></div>
+  </div>
+ </div>
 <!--navigation-->
 <section class="smart-scroll">
     <div class="container-fluid">
@@ -53,9 +68,24 @@
         </nav>
     </div>
 </section>
-
+<style>
+    .parallax {
+      /* The image used */
+      background-image: url("./Pictures/Misc/project.jpg");
+    
+      /* Set a specific height */
+      min-height: 500px;
+    
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    </style>
 <!--hero header-->
 <section class="py-7 py-md-0 bg-hero" id="home">
+    <div class="parallax">
     <div class="container">
         <div class="row vh-md-100">
             <div class="col-md-8 col-sm-10 col-12 mx-auto my-auto text-center">
@@ -66,21 +96,22 @@
             </div>
         </div>
     </div>
+    </div>
 </section>
 
-<!--Project List-->
+<!--Project 1-->
 <section class="pt-6 pb-7" id="navjump">
     <div class="container">
         <div class="row mt-6">
             <div class="col-md-6 mr-auto">
                 <h2>Project Alpha</h2>
                 <p class="mb-5" style="color: turquoise;">During lockdown a large list of youtube links was dumped in our junior college whatsapp chat daily. By the second week it had become a hassle to keep track of our progress or refer to a previous topic. This website was created as a solution where over 450 different links are stored as iframes in a topicwise arrangement for easy access. The entire website as well as the curation, sorting and processing of links was done within a weekend using efficient and simple task automation and Google Sites as a website hosting platform.</p>
-                <a href="https://sites.google.com/view/studymaterial2112/report" style="color:black; font-weight:4000; font-size: larger;">
+                <a href="https://sites.google.com/view/studymaterial2112/report" target="_blank" style="color:black; font-weight:4000; font-size: larger;">
                     <button class="btn btn-primary d-inline-flex flex-row align-items-center" style="font-weight: bold;">
                        report<em class="ml-2" data-feather="arrow-right"></em>
                     </button>
                 </a>
-                <a href="https://sites.google.com/view/studymaterial2112/home?authuser=0" style="color:black; font-weight:4000; font-size: larger;">
+                <a href="https://sites.google.com/view/studymaterial2112/home?authuser=0" target="_blank" style="color:black; font-weight:4000; font-size: larger;">
                     <button class="btn btn-primary d-inline-flex flex-row align-items-center" style="font-weight: bold;">
                        Website<em class="ml-2" data-feather="arrow-right"></em>
                     </button>
@@ -122,11 +153,11 @@
                 <h5>Social</h5>
                 <ul class="list-unstyled">
                     <li><a href="https://www.youtube.com/channel/UCvVTrA0sIAxYIL_Ic-XfKbg">Youtube</a></li>
-                    <li><a href="https://twitter.com/bhat_siddhanth">Twitter</a></li>
+                    <li><a href="mailto:siddhanthbhat@outlook.com">Mail</a></li>
                     <li><a href="https://github.com/SiddhanthBhat">Github</a></li>
                 </ul>
             </div>  
-        </div>
+        </div>  
         <div class="row mt-5">
             <div class="col-12 text-muted text-center small-xl">
                &copy; Siddhanth Bhat - All rights reserved

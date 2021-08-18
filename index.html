@@ -21,7 +21,22 @@
     <link rel="stylesheet" href="css/default.css" id="theme-color">
 </head>
 <body>
-
+<!--Page Transition-->
+<div class="loader loader--active">
+    <div class="loader__icon">
+      <svg id="loader-1" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
+        <path opacity="0.2" fill="#000" d="M20.201,5.169c-8.254,0-14.946,6.692-14.946,14.946c0,8.255,6.692,14.946,14.946,14.946s14.946-6.691,14.946-14.946C35.146,11.861,28.455,5.169,20.201,5.169z M20.201,31.749c-6.425,0-11.634-5.208-11.634-11.634c0-6.425,5.209-11.634,11.634-11.634c6.425,0,11.633,5.209,11.633,11.634C31.834,26.541,26.626,31.749,20.201,31.749z"></path>
+        <path fill="#000" d="M26.013,10.047l1.654-2.866c-2.198-1.272-4.743-2.012-7.466-2.012h0v3.312h0C22.32,8.481,24.301,9.057,26.013,10.047z"></path>
+        <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 20 20" to="360 20 20" dur="0.5s" repeatCount="indefinite"></animateTransform>
+      </svg>
+    </div>
+    <div class="loader__tile"></div>
+    <div class="loader__tile"></div>
+    <div class="loader__tile"></div>
+    <div class="loader__tile"></div>
+    <div class="loader__tile"></div>
+  </div>
+ </div>
 <!--navigation-->
 <section class="smart-scroll">
     <div class="container-fluid">
@@ -53,75 +68,35 @@
         </nav>
     </div>
 </section>
-
+<style>
+        .parallax {
+      /* The image used */
+      background-image: url("./Pictures/Misc/parallax.jpg");
+    
+      /* Set a specific height */
+      min-height: 500px;
+    
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    </style>
 <!--hero header-->
 <section class="py-7 py-md-0 bg-hero" id="home">
-    <div class="container">
-        <div class="row vh-md-100">
-            <div class="col-md-8 col-sm-10 col-12 mx-auto my-auto text-center">
-                <h1 class="heading-black text-capitalize">Siddhanth Bhat</h1>
-                <p class="lead py-3">I'm an engineering student with an interest in development, music and writing. I enjoy researching new ways to save time and be more productive while I'm supposed to be working and promising myself ill change for the better tomorrow when I'm supposed to be sleeping.<br><br> I like old songs, new gadgets and enjoy watching YouTube videos that give me a crippling existential crisis. In my free time I compose music that moves people, mostly away from me and  I also enjoy employing my quick wit and dry humour on my friends, which I keep needing to make more of. <br> I made this website to share my work with people on the internet!</p>
-                <a href="#navjump" style="color:black; font-weight:4000; font-size: larger;">
-                    <button class="btn btn-primary d-inline-flex flex-row align-items-center" style="font-weight: bold;">
-                        Lets GO <em class="ml-2" data-feather="arrow-right"></em>
-                    </button>
-                </a>
-            </div>
+    <div class="parallax">
+      <div class="container">
+         <div class="row vh-md-100">
+             <div class="col-md-8 col-sm-10 col-12 mx-auto my-auto text-center">
+                  <h1 class="heading-black text-capitalize">Siddhanth Bhat</h1>
+             </div>
         </div>
     </div>
 </section>
 
 <!-- features section -->
-<section class="pt-6 pb-7" id="navjump">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 mx-auto text-center">
-                <h2 class="heading-black">About the website.</h2>
-                <p class="text-muted lead">There are various sections accessible through the navbar at the top ☝.</p>
-            </div>
-        </div>
-        <div class="row mt-5">
-            <div class="col-md-10 mx-auto">
-                <div class="row feature-boxes">
-                    <div class="col-md-6 box">
-                        <div class="icon-box box-primary">
-                            <div class="icon-box-inner">
-                                <span data-feather="edit-3" width="35" height="35"></span>
-                            </div>
-                        </div>
-                        <h5>About Me</h5>
-                        <p class="text-muted">A page about me, who I am, what I do, my  and how to reach me.</p>
-                    </div>
-                    <div class="col-md-6 box">
-                        <div class="icon-box box-success">
-                            <div class="icon-box-inner">
-                                <span data-feather="monitor" width="35" height="35"></span>
-                            </div>
-                        </div>
-                        <h5>Projects</h5>
-                        <p class="text-muted">A page with all my project work along with downloads and a report about it.</p>
-                    </div>
-                    <div class="col-md-6 box">
-                        <div class="icon-box box-danger">
-                            <div class="icon-box-inner">
-                                <span data-feather="layout" width="35" height="35"></span>
-                            </div>
-                        </div>
-                        <h5>Blogs</h5>
-                        <p class="text-muted">A webpage with my writings, filled with dry humour and attempts at good puns.</p>
-                    </div>
-                    <div class="col-md-6 box">
-                        <div class="icon-box box-info">
-                            <div class="icon-box-inner">
-                                <span data-feather="music" width="35" height="35"></span>
-                            </div>
-                        </div>
-                        <h5>Music</h5>
-                        <p class="text-muted">Instrumentals of songs I like, my own compositions and my tryst with making Lo-fi.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+<section class="pt-6 pb-7" id="navjump">    
         <div class="row mt-6">
             <div class="col-md-6 mr-auto">
                 <h2>Recent</h2>
@@ -130,7 +105,7 @@
             </div>
             <div class="col-md-5">
                 <div class="slick-about">
-                    <img src="./Pictures/Recents/img1.png" class="img-fluid rounded d-block mx-auto" alt="Title 1"/>
+                    <img src="https://www.instagram.com/p/CR3eb2gDp6plwCgLEbPgEGCHgRqnfARvgkx1js0/" class="img-fluid rounded d-block mx-auto" alt="Title 1"/>
                     <img src="./Pictures/Recents/img2.png" class="img-fluid rounded d-block mx-auto" alt="Title 2"/>
                     <img src="./Pictures/Recents/img3.png" class="img-fluid rounded d-block mx-auto" alt="Title 3"/>
                 </div>
@@ -164,7 +139,7 @@
                 <h5>Social</h5>
                 <ul class="list-unstyled">
                     <li><a href="https://www.youtube.com/channel/UCvVTrA0sIAxYIL_Ic-XfKbg">Youtube</a></li>
-                    <li><a href="https://twitter.com/bhat_siddhanth">Twitter</a></li>
+                    <li><a href="mailto:siddhanthbhat@outlook.com">Mail</a></li>
                     <li><a href="https://github.com/SiddhanthBhat">Github</a></li>
                 </ul>
             </div>  
@@ -176,7 +151,6 @@
         </div>
     </div>
 </footer>
-
 <!--scroll to top-->
 <div class="scroll-top">
     <i class="fa fa-angle-up" aria-hidden="true"></i>

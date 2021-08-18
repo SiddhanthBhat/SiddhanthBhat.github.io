@@ -52,11 +52,25 @@ $(function () {
         }
         return false;
     });
+    //TRANSITION
+    var $loader = document.querySelector(".loader");
+
+window.onload = function () {
+  $loader.classList.remove("loader--active");
+};
+
+document.querySelector(".btn").addEventListener("click", function () {
+  $loader.classList.add("loader--active");
+
+  window.setTimeout(function () {
+    $loader.classList.remove("loader--active");
+  }, 200);
+});
 
     // scroll top top
     $('.scroll-top').click(function () {
         $('html, body').stop().animate({
             scrollTop: 0
-        }, 1000);
+        }, 700);
     });
 });
