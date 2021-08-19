@@ -7894,7 +7894,7 @@ footer h5 {
   width: 0;
   height: 20%;
   opacity: 75%;
-  background-color: var(--blue);
+  background-color: whitesmoke;
   transition: width 0.7s ease;
 }
 .loader .loader__tile:nth-child(0) {
