@@ -7856,6 +7856,7 @@ footer h5 {
 
 /*Transition Page*/
 
+
 .wrapper {
   height: 100vh;
   text-align: center;
@@ -7873,14 +7874,14 @@ footer h5 {
   left: 0;
   width: 0;
   height: 100vh;
-  transition: width 0s 2.4s ease;
+  transition: width 0s 1.4s ease;
 }
 .loader .loader__icon {
   position: absolute;
   z-index: 1;
   top: 50%;
   left: 50%;
-  transform: translateX(-70%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
   opacity: 0;
   transition: opacity 0.5s ease;
 }
@@ -7891,14 +7892,14 @@ footer h5 {
   position: absolute;
   left: 0;
   width: 0;
-  height: 100%;
-  background-color:whitesmoke;
-  opacity: 2%;
-  transition: width 1.5s ease;
+  height: 20%;
+  opacity: 75%;
+  background-color: var(--blue);
+  transition: width 0.7s ease;
 }
 .loader .loader__tile:nth-child(0) {
   top: calc(-1 * 20%);
-  transition-delay: -0.01s;
+  transition-delay: -0.2s;
 }
 .loader .loader__tile:nth-child(1) {
   top: calc(0 * 20%);
@@ -7906,19 +7907,19 @@ footer h5 {
 }
 .loader .loader__tile:nth-child(2) {
   top: calc(1 * 20%);
-  transition-delay: 0.02s;
+  transition-delay: 0.1s;
 }
 .loader .loader__tile:nth-child(3) {
   top: calc(2 * 20%);
-  transition-delay: 0.03s;
+  transition-delay: 0.2s;
 }
 .loader .loader__tile:nth-child(4) {
   top: calc(3 * 20%);
-  transition-delay: 0.04s;
+  transition-delay: 0.3s;
 }
 .loader .loader__tile:nth-child(5) {
   top: calc(4 * 20%);
-  transition-delay: 0.05s;
+  transition-delay: 0.4s;
 }
 .loader--active {
   width: 100%;
