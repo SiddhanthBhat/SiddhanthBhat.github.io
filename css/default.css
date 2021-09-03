@@ -1,13 +1,4 @@
-﻿/*!
-* Created by Kroplet (https://www.kroplet.com) 
-* The easiest way to create Bootstrap 4 themes. 
-*/
-
-/*!
-* Bootstrap v4.1.0 (https://getbootstrap.com) 
-* Copyright 2011-2017 The Bootstrap Authors 
-* Copyright 2011-2017 Twitter, Inc. 
-* Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)*/
+﻿
 :root {
   --blue: #2979ff;
   --indigo: #3d5afe;
@@ -66,7 +57,7 @@ body {
   line-height: 1.5;
   color: #CFD8DC;
   text-align: left;
-  background-color: rgb(19, 18, 18);
+  background-color: rgba(19, 18, 18);
  }
 
 [tabindex="-1"]:focus {
@@ -5939,7 +5930,8 @@ button.bg-dark:focus {
 
 .pb-7,
 .py-7 {
-  padding-bottom: 9rem !important; }
+  padding-bottom: 9rem !important; 
+  }
 
 .pl-7,
 .px-7 {
