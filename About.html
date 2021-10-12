@@ -13,6 +13,9 @@
     <!--Inter UI font-->
     <link href="https://rsms.me/inter/inter-ui.css" rel="stylesheet">
 
+    <!--Animation Library-->
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet"> 
+
     <!--vendors styles-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
@@ -57,6 +60,7 @@
         </nav>
     </div>
 </section>
+
 <style>
     .parallax {
       /* The image used */
@@ -77,22 +81,20 @@
    <div class="parallax">
     <div class="container">
         <div class="row vh-md-100">
-            <div class="col-md-8 col-sm-10 col-12 mx-auto my-auto text-center">
+            <div class="col-md-8 col-sm-10 col-12 mx-auto my-auto text-center" data-aos="zoom-in-up" data-aos-duration="1000">
                 <h1 class="heading-black text-capitalize">About Me</h1>
-                <p class="lead py-3">A graphical autobiography.</p>
-               <br><br><br><br><br><br>
-                <img src="./Pictures/Misc/white down arrow.png" alt="">
+                <p class="lead py-3">Get to know me.</p>
             </div>
         </div>
     </div>
 </div>
 </section>
 
-<!--Project List-->
+<!--Intro Main-->
 <section class="pt-6 pb-7" id="navjump">
     <div class="container">
         <div class="row mt-6">
-            <div class="col-md-6 mr-auto">
+            <div class="col-md-6 mr-auto" data-aos="fade-right" data-aos-duration="1000">
                 <h2>Siddhanth Bhat</h2>
                 <p class="mb-5" style="color: turquoise;">Hey there! If your here for my formal CV click the button down below,   otherwise you can scroll down for a short insight into who I am </p>
                 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" style="color:black; font-weight:4000; font-size: larger;">
@@ -101,7 +103,7 @@
                     </button>
                 </a>
             </div>
-            <div class="col-md-5">
+            <div class="col-md-5" data-aos="fade-left" data-aos-duration="1000">
                 <div class="slick-about">
                     <img src="./Pictures/Misc/me.png" class="img-fluid rounded d-block mx-auto" alt="Title 1"/>
                 </div>
@@ -113,14 +115,14 @@
 <section class="pt-6 pb-7" id="navjump">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 mx-auto text-center">
+            <div class="col-md-6 mx-auto text-center" data-aos="fade-up" data-aos-duration="1000">
                 <h2 class="heading-black">Life</h2>
             </div>
         </div>
         <div class="row mt-5">
             <div class="col-md-10 mx-auto">
                 <div class="row feature-boxes">
-                    <div class="col-md-6 box">
+                    <div class="col-md-6 box" data-aos="zoom-in-right" data-aos-duration="1000">
                         <div class="icon-box box-primary">
                             <div class="icon-box-inner">
                                 <span data-feather="activity" width="35" height="35"></span>
@@ -129,7 +131,7 @@
                         <h5>Birthday</h5>
                         <p class="text-muted">I was born 21<sup>st</sup> December, 2002 in Mahim,Mumbai</p>
                     </div>
-                    <div class="col-md-6 box">
+                    <div class="col-md-6 box" data-aos="zoom-in-left" data-aos-duration="1000">
                         <div class="icon-box box-success">
                             <div class="icon-box-inner">
                                 <span data-feather="book" width="35" height="35"></span>
@@ -138,7 +140,7 @@
                         <h5>School</h5>
                         <p class="text-muted">Studied in Highfield Primary, Leeds UK before shifting to Mumbai to complete middle and high school in Bombay Scottish Mahim and PACE</p>
                     </div>
-                    <div class="col-md-6 box">
+                    <div class="col-md-6 box" data-aos="zoom-in-right" data-aos-duration="1000">
                         <div class="icon-box box-danger">
                             <div class="icon-box-inner">
                                 <span data-feather="check-square" width="35" height="35"></span>
@@ -147,7 +149,7 @@
                         <h5>Std 10 and 12</h5>
                         <p class="text-muted">Passed my ICSE and HSC exams with distinction in 2019 and 2021 respectively</p>
                     </div>
-                    <div class="col-md-6 box">
+                    <div class="col-md-6 box" data-aos="zoom-in-left" data-aos-duration="1000">
                         <div class="icon-box box-info">
                             <div class="icon-box-inner">
                                 <span data-feather="book-open" width="35" height="35"></span>
@@ -165,14 +167,14 @@
 <section class="pt-6 pb-7" id="navjump">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 mx-auto text-center">
+            <div class="col-md-6 mx-auto text-center" data-aos="fade-up" data-aos-duration="1000">
                 <h2 class="heading-black">Hobbies</h2>
             </div>
         </div>
         <div class="row mt-5">
             <div class="col-md-10 mx-auto">
                 <div class="row feature-boxes">
-                    <div class="col-md-6 box">
+                    <div class="col-md-6 box" data-aos="zoom-in-right" data-aos-duration="1000">
                         <div class="icon-box box-primary">
                             <div class="icon-box-inner">
                                 <span data-feather="music" width="35" height="35"></span>
@@ -181,7 +183,7 @@
                         <h5>Music</h5>
                         <p class="text-muted">I play the keyboard and am self taught in music theory. I enjoy creating reconstructions of songs digitally and compose a bit too.</p>
                     </div>
-                    <div class="col-md-6 box">
+                    <div class="col-md-6 box" data-aos="zoom-in-left" data-aos-duration="1000">
                         <div class="icon-box box-success">
                             <div class="icon-box-inner">
                                 <span data-feather="award" width="35" height="35"></span>
@@ -190,7 +192,7 @@
                         <h5>Design</h5>
                         <p class="text-muted">I can produce good quality infographics and am proficient in using Adobe Photoshop, GIMP and Inkscape </p>
                     </div>
-                    <div class="col-md-6 box">
+                    <div class="col-md-6 box" data-aos="zoom-in-right" data-aos-duration="1000">
                         <div class="icon-box box-danger">
                             <div class="icon-box-inner">
                                 <span data-feather="video" width="35" height="35"></span>
@@ -199,7 +201,7 @@
                         <h5>Video Editing</h5>
                         <p class="text-muted">I like implementing new ideas I have like kinetic typography into new formats. I also enoy creating keyframe animations and CGI</p>
                     </div>
-                    <div class="col-md-6 box">
+                    <div class="col-md-6 box" data-aos="zoom-in-left" data-aos-duration="1000">
                         <div class="icon-box box-info">
                             <div class="icon-box-inner">
                                 <span data-feather="paperclip" width="35" height="35"></span>
@@ -217,14 +219,14 @@
 <section class="pt-6 pb-7" id="navjump">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 mx-auto text-center">
+            <div class="col-md-6 mx-auto text-center" data-aos="fade-up" data-aos-duration="1000">
                 <h2 class="heading-black">Social</h2>
             </div>
         </div>
         <div class="row mt-5">
             <div class="col-md-10 mx-auto">
                 <div class="row feature-boxes">
-                    <div class="col-md-6 box">
+                    <div class="col-md-6 box" data-aos="zoom-in-right" data-aos-duration="1000">
                         <div class="icon-box box-primary">
                             <div class="icon-box-inner">
                                 <span data-feather="github" width="35" height="35"></span>
@@ -239,7 +241,7 @@
                              </button>
                         </a>
                     </div>
-                    <div class="col-md-6 box">
+                    <div class="col-md-6 box" data-aos="zoom-in-left" data-aos-duration="1000">
                         <div class="icon-box box-success">
                             <div class="icon-box-inner">
                                 <span data-feather="mail" width="35" height="35"></span>
@@ -254,7 +256,7 @@
                              </button>
                         </a>
                     </div>
-                    <div class="col-md-6 box">
+                    <div class="col-md-6 box" data-aos="zoom-in-right" data-aos-duration="1000">
                         <div class="icon-box box-danger">
                             <div class="icon-box-inner">
                                 <span data-feather="youtube" width="35" height="35"></span>
@@ -269,7 +271,7 @@
                              </button>
                         </a>
                     </div>
-                    <div class="col-md-6 box">
+                    <div class="col-md-6 box" data-aos="zoom-in-left" data-aos-duration="1000">
                         <div class="icon-box box-info">
                             <div class="icon-box-inner">
                                 <span data-feather="linkedin" width="35" height="35"></span>
@@ -290,7 +292,7 @@
     </div>
 </section>
 <!--footer-->
-<footer class="py-6">
+<footer class="py-6" data-aos="fade-up" data-aos-duration="1000">
     <div class="container">
         <div class="row">
             <div class="col-sm-5 mr-auto">
@@ -333,6 +335,7 @@
     <i class="fa fa-angle-up" aria-hidden="true"></i>
 </div>
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>

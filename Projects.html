@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <!--Favicon-->
-    <link rel="icon" href="./Pictures/Misc/Profilesmall.png">
+    <link rel="icon" href="./Pictures/Misc/Profilesmall.png"> 
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -12,7 +12,8 @@
 
     <!--Inter UI font-->
     <link href="https://rsms.me/inter/inter-ui.css" rel="stylesheet">
-
+    <!--Animation Library-->
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet"> 
     <!--vendors styles-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
@@ -77,19 +78,17 @@
     <div class="parallax">
     <div class="container">
         <div class="row vh-md-100">
-            <div class="col-md-8 col-sm-10 col-12 mx-auto my-auto text-center">
+            <div class="col-md-8 col-sm-10 col-12 mx-auto my-auto text-center"  data-aos="zoom-in-up" data-aos-duration="1000">
                 <h1 class="heading-black text-capitalize">Projects</h1>
                 <p class="lead py-3">A page with all my project work along with downloads and reports about them.</p>
-               <br><br><br>
-                <img src="./Pictures/Misc/white down arrow.png" alt="">
             </div>
         </div>
     </div>
     </div>
 </section>
 <!--Project 4-->
-<section class="pt-6 pb-7" id="navjump">
-    <div class="container">
+<section class="py-7 bg-dark section-angle top-left bottom-left" id="navjump">
+    <div class="container"  data-aos="fade-right" data-aos-duration="1000">
             <div class="row mt-6">
                 <div class="col-md-6 mr-auto">
                     <h2>UI Redesign</h2>
@@ -116,8 +115,8 @@
     </div>
 </section>
 <!--Project 3-->
-<section class="pt-6 pb-7" id="navjump">
-    <div class="container">
+<section class="py-7 bg-dark section-angle top-right bottom-right" id="navjump">
+    <div class="container" data-aos="fade-left" data-aos-duration="1000">
             <div class="row mt-6">
                 <div class="col-md-6 mr-auto">
                     <h2>Managment System</h2>
@@ -144,8 +143,8 @@
     </div>
 </section>
 <!--Project 2-->
-<section class="pt-6 pb-7" id="navjump">
-    <div class="container">
+<section class="py-7 bg-dark section-angle top-left bottom-left" id="navjump">
+    <div class="container" data-aos="fade-right" data-aos-duration="1000">
             <div class="row mt-6">
                 <div class="col-md-6 mr-auto">
                     <h2>Calculator</h2>
@@ -173,21 +172,23 @@
 </section>
 
 <!--Page Navigation-->
-<div style="text-align: center;">
-   <!-- <a href="">
-        <button class="btn btn-primary d-inline-flex flex-row align-items-center">
-            <-- Previous Page
-        </button>
-    </a>-->
-    <a href="./Projects1.html">
-        <button class="btn btn-primary d-inline-flex flex-row align-items-center">
-            Next Page 
-        </button>
-    </a> 
-</div>
+<section class="py-7 bg-dark section-angle top-right">
+    <div style="text-align: center" data-aos="fade-up" data-aos-duration="1000">
+    <!-- <a href="">
+            <button class="btn btn-primary d-inline-flex flex-row align-items-center">
+                <-- Previous Page
+            </button>
+        </a>-->
+        <a href="./Projects1.html">
+            <button class="btn btn-primary d-inline-flex flex-row align-items-center">
+                Next Page 
+            </button>
+        </a> 
+    </div>
+</section>
 <!--footer-->
 <footer class="py-6">
-    <div class="container">
+    <div class="container"  data-aos="fade-up" data-aos-duration="1000">
         <div class="row">
             <div class="col-sm-5 mr-auto">
                 <h5>About the Website</h5>
@@ -229,6 +230,7 @@
     <i class="fa fa-angle-up" aria-hidden="true"></i>
 </div>
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>

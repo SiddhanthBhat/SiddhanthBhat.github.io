@@ -12,7 +12,8 @@
 
     <!--Inter UI font-->
     <link href="https://rsms.me/inter/inter-ui.css" rel="stylesheet">
-
+    <!--Animation Library-->
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet"> 
     <!--vendors styles-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
@@ -75,13 +76,11 @@
 <!--hero header-->
 <section class="py-7 py-md-0 bg-hero" id="home">
     <div class="parallax">
-    <div class="container">
+    <div class="container"  data-aos="fade-up" data-aos-duration="1000">
         <div class="row vh-md-100">
-            <div class="col-md-8 col-sm-10 col-12 mx-auto my-auto text-center">
+            <div class="col-md-8 col-sm-10 col-12 mx-auto my-auto text-center" data-aos="zoom-in-up" data-aos-duration="1000">
                 <h1 class="heading-black text-capitalize">Blogs</h1>
                 <p class="lead py-3">A webpage with my writings, filled with dry humour and attempts at good puns. I write mainly about theories I have, technology and productivity.</p>
-                <br><br><br>
-                <img src="./Pictures/Misc/white down arrow.png" alt="">
             </div>
         </div>
     </div>
@@ -93,7 +92,7 @@
         <div class="row">
         </div>
         <div class="row mt-5">
-            <div class="col-md-4">
+            <div class="col-md-4"  data-aos="zoom-in-up" data-aos-duration="500">
                 <div class="card">
                     <a href="#">
                         <img class="card-img-top img-raised" src="https://images.unsplash.com/photo-1519810410960-332413a4e48f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2xpY2t8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Blog 1">
@@ -105,7 +104,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4" data-aos="zoom-in-up" data-aos-duration="500">
                 <div class="card">
                     <a href="#">
                         <img class="card-img-top img-raised" src="https://images.pexels.com/photos/518530/pexels-photo-518530.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Blog 1">
@@ -117,7 +116,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4" data-aos="zoom-in-up" data-aos-duration="500">
                 <div class="card">
                     <a href="#">
                         <img class="card-img-top img-raised" src="blog img" alt="Blog 1">
@@ -136,7 +135,7 @@
 
 <!--footer-->
 <footer class="py-6">
-    <div class="container">
+    <div class="container"  data-aos="fade-up" data-aos-duration="1000">
         <div class="row">
             <div class="col-sm-5 mr-auto">
                 <h5>About the Website</h5>
@@ -178,6 +177,7 @@
     <i class="fa fa-angle-up" aria-hidden="true"></i>
 </div>
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>

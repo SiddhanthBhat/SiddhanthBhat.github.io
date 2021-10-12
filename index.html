@@ -12,7 +12,9 @@
 
     <!--Inter UI font-->
     <link href="https://rsms.me/inter/inter-ui.css" rel="stylesheet">
-
+    <!--Animation Library-->
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet"> 
+    
     <!--vendors styles-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
@@ -60,7 +62,7 @@
 <style>
         .parallax {
       /* The image used */
-      background-image: url("./Pictures/Misc/homepage2.gif");
+      background-image: url("./Pictures/Misc/homepage1.gif");
     
       /* Set a specific height */
       min-height: 500px;
@@ -76,37 +78,18 @@
 <section class="py-7 py-md-0 bg-hero" id="home">
     <div class="parallax">
       <div class="container">
-         <div class="row vh-md-100">
+         <div class="row vh-md-100"  data-aos="flip-up" data-aos-duration="1000">
              <div class="col-md-8 col-sm-10 col-12 mx-auto my-auto text-center" style="justify-content: left;">
                   <h1 class="heading-black text-capitalize" style="font-size: 500%;">Siddhanth Bhat</h1>
-                  <p>The site isnt completed yet and is still being developed, feel free to look around</p>
+                  <p style="font-size: large;">Hey There! 👋</p>
                   
              </div>
         </div>
     </div>
 </section>
-<!-- features section -->
-<section class="pt-6 pb-7" id="navjump">  
-        <div class="row mt-6 ">
-            <div class="col-md-6 mr-auto ">
-                <h2>Recent</h2>
-                <p class="mb-5">A look at what I've done recently or what I am doing.</p>
-                
-            </div>
-            <div class="col-md-5">
-                <div class="slick-about">
-                    <img src="https://www.instagram.com/p/CR3eb2gDp6plwCgLEbPgEGCHgRqnfARvgkx1js0/" class="img-fluid rounded d-block mx-auto" alt="Title 1"/>
-                    <img src="./Pictures/Recents/img2.png" class="img-fluid rounded d-block mx-auto" alt="Title 2"/>
-                    <img src="./Pictures/Recents/img3.png" class="img-fluid rounded d-block mx-auto" alt="Title 3"/>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
 <!--footer-->
 <footer class="py-6">
-    <div class="container">
+    <div class="container"  data-aos="fade-up" data-aos-duration="1000">
         <div class="row">
             <div class="col-sm-5 mr-auto">
                 <h5>About the Website</h5>
@@ -147,6 +130,7 @@
     <i class="fa fa-angle-up" aria-hidden="true"></i>
 </div>
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>

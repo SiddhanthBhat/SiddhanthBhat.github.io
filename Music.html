@@ -12,7 +12,8 @@
 
     <!--Inter UI font-->
     <link href="https://rsms.me/inter/inter-ui.css" rel="stylesheet">
-
+    <!--Animation Library-->
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet"> 
     <!--vendors styles-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
@@ -75,13 +76,11 @@
 <!--hero header-->
 <section class="py-7 py-md-0 bg-hero" id="home">
     <div class="parallax">
-    <div class="container">
+    <div class="container" data-aos="zoom-in-up" data-aos-duration="1000">
         <div class="row vh-md-100">
             <div class="col-md-8 col-sm-10 col-12 mx-auto my-auto text-center">
                 <h1 class="heading-black text-capitalize">Music</h1>
                 <p class="lead py-3">Instrumentals of songs I like, my own compositions and my tryst with making Lo-fi. I play the keyboard and produce most of my tracks digitally. My ambition is to compose an orchestral film track </p>
-                <br><br><br>
-                <img src="./Pictures/Misc/white down arrow.png" alt="">
             </div>
         </div>
     </div>
@@ -91,7 +90,7 @@
 <section class="py-7 bg-dark section-angle top-right bottom-right" id="pricing">
     <div class="container">
         <!--Sub Sections-->
-        <div class="row pt-5 pricing-table">
+        <div class="row pt-5 pricing-table" data-aos="zoom-in-up" data-aos-duration="500">
             <div class="col-12 mx-auto">
                 <div class="card-deck pricing-table">
                     <div class="card">
@@ -139,7 +138,7 @@
                 </div>
             </div>
         </div>
-        <div class="row mt-6">
+        <div class="row mt-6"  data-aos="fade-left" data-aos-duration="1000">
             <div class="col-md-4 mr-auto">
                 <h3>What you get</h3>
                 <p class="lead">
@@ -160,7 +159,7 @@
 </section>
 <!--footer-->
 <footer class="py-6">
-    <div class="container">
+    <div class="container"  data-aos="fade-up" data-aos-duration="1000">
         <div class="row">
             <div class="col-sm-5 mr-auto">
                 <h5>About the Website</h5>
@@ -202,6 +201,7 @@
     <i class="fa fa-angle-up" aria-hidden="true"></i>
 </div>
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
