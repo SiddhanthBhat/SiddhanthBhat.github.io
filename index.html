@@ -30,9 +30,14 @@
     <link rel="stylesheet" href="css/default.css" id="theme-color">
 </head>
 <body>
-<audio autoplay loop>
+<!--Lobby Music-->
+<audio autoplay loop id="myaudio">
     <source src="./Pictures/Misc/music.mp3">
 </audio>
+<script>
+    var audio = document.getElementById("myaudio");
+    audio.volume = 0.2;
+  </script> 
 <!--navigation-->
 <section class="smart-scroll">
     <div class="container-fluid">
@@ -152,9 +157,6 @@
     <div class="loader__tile"></div>
     <div class="loader__tile"></div>
     <div class="loader__tile"></div>
-  </div>
-  <div class="wrapper">
-    <button class="btn" type="button">Toggle page transition</button>
   </div>
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
