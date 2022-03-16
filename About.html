@@ -27,14 +27,13 @@
 </head>
 <body>
 <!--navigation-->
-<section class="smart-scroll"   style="margin-right: 60%;">
+<section class="smart-scroll"   style="margin-right: 60%; flex-direction: row;flex-wrap: wrap;">
     <div class="container-fluid">
         <nav class="navbar navbar-expand-md navbar-dark">
             <a class="navbar-brand heading-black" href="index.html">
                 <span data-feather="menu"></span>
             </a>
-            <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse"
-                    data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+            <button class="navbar-toggler navbar-toggler-left border-0" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
                     aria-label="Toggle navigation">
                 <span data-feather="grid"></span>
             </button>
@@ -55,7 +54,7 @@
                     <li class="nav-item">
                         <a class="nav-link page-scroll" href="Design.html">Design</a>
                     </li>
-                    <li>
+                    <li class="nav-item">
                         <a class="nav-link page-scroll" href="Certificates.html">Certificates</a>
 
                     </li>
@@ -82,18 +81,10 @@
 <!--hero header-->
 <section class="py-7 py-md-0 bg-hero parallax" id="home" data-aos="zoom-out" data-aos-duration="2000">
     <div class="container">
-        <div class="row vh-md-100">
-            <div class="col-md-8 col-sm-10 col-12 mx-auto my-auto text-center" data-aos="zoom-in-up" data-aos-duration="1000">
-                <h1 class="heading-black text-capitalize" style="margin-top: 40%;">About Me</h1>
-                <p class="lead py-3">Get to know me.</p>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-            </div>
+        <div class="row vh-md-100" data-aos="zoom-in-up" data-aos-duration="1000">
+            <div class="col-md-8 col-sm-10 col-12 mx-auto my-auto text-center" style="min-height: 640px;">
+                <img src="./Pictures/Misc/aboutme.png" alt="" style="max-width:100%;">
+           </div>
         </div>
     </div>
 </section>
@@ -342,9 +333,9 @@
 </footer>
 
 <!--scroll to top-->
-<div class="scroll-top">
-    <i class="fa fa-angle-up" aria-hidden="true"></i>
-</div>
+    <div class="scroll-top">
+        <i class="fa fa-angle-up" aria-hidden="true"></i>
+    </div>
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
