@@ -1,17 +1,4 @@
-/*!
 
- =========================================================
- * Material Dashboard Dark Edition - v2.1.0
- =========================================================
-
- * Product Page: https://www.creative-tim.com/product/material-dashboard-dark
- * Copyright 2019 Creative Tim (http://www.creative-tim.com)
-
- =========================================================
-
- * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
- */
 /*     brand Colors              */
 .card {
   font-size: .875rem;
@@ -16879,7 +16866,7 @@ thead.thead-inverse th,
 
 body {
   background-color: #eee;
-  color: #3C4858;
+  color: #121212;
   font-weight: 300;
 }
 
@@ -19552,7 +19539,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 .dark-edition {
-  background-color: #1a2035;
+  background-color: #121212 ;
 }
 
 .dark-edition .btn,
@@ -20537,16 +20524,16 @@ Copyright (c) 2015 Daniel Eden
 }
 
 .dark-edition .card {
-  background: #202940;
+  background: #1C1C1C;
 }
 
 .dark-edition .card .card-header.card-header-text .card-title,
 .dark-edition .card .card-header.card-header-icon .card-title {
-  color: #606477;
+  color: whitesmoke;
 }
 
 .dark-edition .card .card-header.card-header-tabs .nav-tabs-title {
-  color: rgba(255, 255, 255, 0.8);
+  color: whitesmoke;
 }
 
 .dark-edition .card .card-body {
@@ -20554,7 +20541,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 .dark-edition .card .card-body .card-category+.card-title {
-  color: #fff;
+  color: whitesmoke;
 }
 
 .dark-edition .card .card-body .card-category,

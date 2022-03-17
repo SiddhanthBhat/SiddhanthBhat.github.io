@@ -20533,38 +20533,39 @@ Copyright (c) 2015 Daniel Eden
 }
 
 .dark-edition .card {
-  background: #202940;
+  background: whitesmoke;
 }
 
 .dark-edition .card .card-header.card-header-text .card-title,
 .dark-edition .card .card-header.card-header-icon .card-title {
-  color: #606477;
+  color: whitesmoke;
 }
 
 .dark-edition .card .card-header.card-header-tabs .nav-tabs-title {
-  color: rgba(255, 255, 255, 0.8);
+  color: whitesmoke;
 }
 
 .dark-edition .card .card-body {
-  color: #8b92a9;
+  color: whitesmoke;
 }
 
 .dark-edition .card .card-body .card-category+.card-title {
-  color: #fff;
+  color: whitesmoke;
 }
 
 .dark-edition .card .card-body .card-category,
 .dark-edition .card .card-body .card-title {
-  color: #8b92a9;
+  color: whitesmoke;
+  font-weight: 400;
 }
 
 .dark-edition .card .card-body .card-description {
-  color: #606477;
+  color: whitesmoke;
 }
 
 .dark-edition .card .card-body+.card-footer .stats,
 .dark-edition .card .card-footer .stats {
-  color: #a9afbbd1;
+  color: whitesmoke;
 }
 
 .dark-edition .card .card-footer .stats a {
@@ -20640,7 +20641,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 .dark-edition .card-stats .card-header .card-category:not([class*="text-"]) {
-  color: #8b92a9;
+  color: whitesmoke;
 }
 
 .dark-edition .card-stats .card-header+.card-footer {
@@ -20652,7 +20653,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 .dark-edition .card-chart .card-body .card-category {
-  color: #606477;
+  color: #f5f5f5;
 }
 
 .dark-edition .card-chart .card-body .card-category span {
@@ -20672,7 +20673,7 @@ Copyright (c) 2015 Daniel Eden
 .dark-edition .table>thead>tr>td,
 .dark-edition .table>tbody>tr>td,
 .dark-edition .table>tfoot>tr>td {
-  color: #8b92a9;
+  color: white;
   border-color: rgba(180, 180, 180, 0.1);
 }
 
