@@ -1,171 +1,117 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-   <script>
-    window.onload = function() {
-        var context = new AudioContext();
-      }
-      </script>
-    <!--Favicon-->
-    <link rel="icon" href="./Pictures/Misc/Profilesmall.png">
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Siddhanth Bhat</title>
-    <meta name="description"
-          content="nice."/>
 
-    <!--Inter UI font-->
-    <link href="https://rsms.me/inter/inter-ui.css" rel="stylesheet">
-    <!--Animation Library-->
-    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet"> 
-    
-    <!--vendors styles-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
-    <!--Tab icon Inserted-->
-    <link rel="shortcut icon" href="./Pictures/Misc/profilesmall.png" type="image/x-icon">  
-    <!-- Bootstrap CSS / Color Scheme -->
-    <link rel="stylesheet" href="css/default.css" id="theme-color">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siddhanth Bhat</title>
+    <link rel="icon" href="./Pictures/Misc/Profilesmall.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/shorthandcss@1.1.1/dist/shorthand.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli:200,300,400,500,600,700,800,900&display=swap" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <!--Meta Tags-->
+    <meta name="description" content="Web development at its finest"/>
 </head>
-<body>
-<!--Lobby Music-->
-<audio autoplay loop id="myaudio">
-    <source src="./Pictures/Misc/music.mp3">
-</audio>
-<script>
-    var audio = document.getElementById("myaudio");
-    audio.volume = 0.2;
-  </script> 
-<!--navigation-->
-<!--navigation-->
-<section class="smart-scroll"   style="margin-right: 60%; flex-direction: row;flex-wrap: wrap;">
-    <div class="container-fluid">
-        <nav class="navbar navbar-expand-md navbar-dark">
-            <a class="navbar-brand heading-black" href="index.html">
-                <span data-feather="menu"></span>
+
+<body class="bg-black muli">
+    <nav class="w-100pc flex flex-column md-flex-row md-px-10 py-5 bg-black">
+        <div class="flex justify-between">
+            <a href="#" class="flex items-center p-2 mr-4 no-underline">
+                <img class="max-h-l2 w-auto" src="Pictures/Misc/Profilesmall.png" />
             </a>
-            <button class="navbar-toggler navbar-toggler-left border-0" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                <span data-feather="grid"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll"style="color: aqua;" href="About.html">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="Projects.html">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="Music.html">Music</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="Blog.html">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="Design.html">Design</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="Certificates.html">Certificates</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="./Logistics/examples/dashboard.html">Logistics App</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </div>
-</section>
-<style>
-        .parallax {
-      /* The image used */
-      background-image: url("./Pictures/Misc/homepage.GIF");
-    
-      /* Set a specific height */
-      min-height: 500px;
-    
-      /* Create the parallax scrolling effect */
-      background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-    </style>
-<!--hero header-->
-<section class="py-7 py-md-0 bg-hero parallax" id="home" data-aos="zoom-out" data-aos-duration="2500">
-      <div class="container">
-         <div class="row vh-md-100"  data-aos="zoom-in-up" data-aos-duration="1000">
-             <div class="col-md-8 col-sm-10 col-12 mx-auto my-auto text-center" style="min-height: 640px;">
-                  <img src="./Pictures/name.png" alt="" style="max-width:100%;">
-             </div>
+            <a data-toggle="toggle-nav" data-target="#nav-items" href="#"
+                class="flex items-center ml-auto md-hidden indigo-lighter opacity-50 hover-opacity-100 ease-300 p-1 m-3">
+                <i data-feather="menu"></i>
+            </a>
         </div>
-</section>
-<!--footer-->
-<footer class="py-6">
-    <div class="container"  data-aos="fade-up" data-aos-duration="1000">
-        <div class="row">
-            <div class="col-sm-5 mr-auto">
-                <h5>About the Website</h5>
-                <p class="text-muted">This website was created and is being managed by me. It serves as a way to access the music, art and code I create across the internet.</p>
-            </div>
-            <div class="col-sm-2">
-                <h5></h5>
-                <ul class="list-unstyled">
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                </ul>
-            </div>
-            <div class="col-sm-2">
-                <h5></h5>
-                <ul class="list-unstyled">
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                </ul>
-            </div>
-            <div class="col-sm-2">
-                <h5>Social</h5>
-                <ul class="list-unstyled">
-                    <li><a href="">Youtube</a></li>
-                    <li><a href="mailto:siddhanthbhat@outlook.com">Mail</a></li>
-                    <li><a href="https://github.com/SiddhanthBhat">Github</a></li>
-                </ul>
-            </div>  
+        <div id="nav-items" class="hidden flex sm-w-100pc flex-column md-flex md-flex-row md-justify-end items-center">
+            <a href="./index.html" class="fs-m2 mx-3 py-3 blue no-underline hover-underline">Home</a>
+            <a href="./projects.html" class="fs-m2 mx-3 py-3 white no-underline hover-underline">Projects</a>
+            <a href="./music.html" class="fs-m2 mx-3 py-3 white no-underline hover-underline">Music</a>
+            <a href="./blogs.html" class="fs-m2 mx-3 py-3 white no-underline hover-underline">Blog</a>
+            <a href="#pricing" class="fs-m2 mx-3 py-3 white no-underline hover-underline">Design</a>
+            <a href="./certificates.html" class="fs-m2 mx-3 py-3 white no-underline hover-underline">Certificates</a>
         </div>
-        <div class="row mt-5">
-            <div class="col-12 text-muted text-center small-xl">
-               &copy; Siddhanth Bhat - All rights reserved
+    </nav>
+
+    <!-- hero section -->
+    <section id="home" class="min-h-100vh flex justify-start items-center">
+        <div class="mx-5 md-mx-l5">
+            <div>
+                <h1 class="white fs-l2 lh-2 md-fs-xl2 md-lh-1 fw-900 ">Siddhanth<br> Bhat</h1>
+                </div>
+                <div class="white opacity-70 fs-s3 mt-3">Hello there! 😄</span>
             </div>
         </div>
+        <p style="text-align: right; padding-left: 30%;"><img class="br-round" src="./Pictures/Misc/homepage.GIF" alt=""></p>    
+    </section>
+
+
+    <!-- footer -->
+    <footer class="p-5 md-p-l5 bg-indigo-lightest-10">
+        <div class="flex flex-wrap">
+            <div class="md-w-25pc mb-10">
+                <p class="fs-m2 mx-3 py-3 white no-underline">About the Website</p>
+                <div class="white opacity-70 fs-s2 mt-4 md-pr-10">
+                    <p>This website was created and is being managed by me. It serves as a way to access the music, art and code I create across the internet.</p>
+                </div>
+            </div>
+            <div class="w-100pc md-w-50pc">
+                <div class="flex justify-around">
+                    <div class="w-33pc md-px-10 mb-10">
+                        <h5 class="white"></h5>
+                        <ul class="list-none mt-5 fs-s2">
+                            <li class="my-3"><a href="#" class="white opacity-70 no-underline hover-underline">
+                                    </a></li>
+                            <li class="my-3"><a href="#" class="white opacity-70 no-underline hover-underline"></a>
+                            </li>
+                            <li class="my-3"><a href="#"
+                                    class="white opacity-70 no-underline hover-underline"></a></li>
+                            <li class="my-3"><a href="#" class="white opacity-70 no-underline hover-underline"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="w-33pc md-px-10 mb-10">
+                        <h5 class="white"></h5>
+                        <ul class="list-none mt-5 fs-s2">
+                            <li class="my-3"><a href="#" class="white opacity-70 no-underline hover-underline">
+                                    </a></li>
+                            <li class="my-3"><a href="#" class="white opacity-70 no-underline hover-underline"></a>
+                            </li>
+                            <li class="my-3"><a href="#"
+                                    class="white opacity-70 no-underline hover-underline"></a></li>
+                            <li class="my-3"><a href="#" class="white opacity-70 no-underline hover-underline"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="w-33pc md-px-10 mb-10">
+                        <h5 class="white">Social</h5>
+                        <ul class="list-none mt-5 fs-s2">
+                            <li class="my-3"><a href="https://www.youtube.com/channel/UC2dsNCfR-DclbLNkfFLzJnA" class="white opacity-70 no-underline hover-underline">YouTube</a></li>
+                            <li class="my-3"><a href="mailto:siddhanthbhat@outlook.com" class="white opacity-70 no-underline hover-underline">Mail</a>
+                            </li>
+                            <li class="my-3"><a href="https://github.com/SiddhanthBhat" class="white opacity-70 no-underline hover-underline">Github</a></li>
+                            <li class="my-3"><a href="https://www.instagram.com/siddhanthbhat21/" class="white opacity-70 no-underline hover-underline">Instagram</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="w-100pc md-w-25pc">
+                <div class="flex w-75pc md-w-100pc mx-auto">
+                   <p class="`fs-m2 mx-3 py-3 blue no-underline hover-underline">© Siddhanth Bhat - All rights reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
     </div>
-</footer>
-<!--scroll to top-->
-<div class="scroll-top">
-    <i class="fa fa-angle-up" aria-hidden="true"></i>
-</div>
-<!--Transition-->
-<div class="loader loader--active">
-    <div class="loader__icon">
-      <svg id="loader-1" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
-        <path opacity="0.2" fill="#000" d="M20.201,5.169c-8.254,0-14.946,6.692-14.946,14.946c0,8.255,6.692,14.946,14.946,14.946s14.946-6.691,14.946-14.946C35.146,11.861,28.455,5.169,20.201,5.169z M20.201,31.749c-6.425,0-11.634-5.208-11.634-11.634c0-6.425,5.209-11.634,11.634-11.634c6.425,0,11.633,5.209,11.633,11.634C31.834,26.541,26.626,31.749,20.201,31.749z"></path>
-        <path fill="#000" d="M26.013,10.047l1.654-2.866c-2.198-1.272-4.743-2.012-7.466-2.012h0v3.312h0C22.32,8.481,24.301,9.057,26.013,10.047z"></path>
-        <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 20 20" to="360 20 20" dur="0.5s" repeatCount="indefinite"></animateTransform>
-      </svg>
-    </div>
-    <div class="loader__tile"></div>
-    <div class="loader__tile"></div>
-    <div class="loader__tile"></div>
-    <div class="loader__tile"></div>
-    <div class="loader__tile"></div>
-  </div>
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.7.3/feather.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-<script src="js/scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
+
 </html>
