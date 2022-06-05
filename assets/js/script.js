@@ -18,7 +18,7 @@ $(document).ready(function () {
         prevArrow: $('.prev'),
         nextArrow: $('.next'),
     });
-
+    
     $('#slider-2').slick({
         dots: true,
         arrows: false,
