@@ -21,8 +21,17 @@
         body {
             overflow-x: hidden;
         }
-    </style>
-<nav class="w-100pc flex flex-column md-flex-row md-px-10 py-5 bg-black" data-aos="flip-down">        <div class="flex justify-between">
+        .parallax {
+              background-image: url("./Pictures/Misc/music.jpg");
+              min-height: 500px;
+              background-attachment: fixed;
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+            }
+ </style>
+<nav class="w-100pc flex flex-column md-flex-row md-px-10 py-5 bg-black" data-aos="flip-down">        \
+        <div class="flex justify-between">
             <a href="./index.html" class="flex items-center p-2 mr-4 no-underline">
                 <img class="max-h-l2 w-auto" src="Pictures/Misc/Profilesmall.png" />
             </a>
@@ -43,7 +52,8 @@
     </nav>
 
     <!-- hero section -->
-    <section id="home" class=" flex justify-start items-top" style="background-image:url(./Pictures/Misc/2homepage.gif); background-size:cover; background-repeat: no-repeat; background-position: 80%;" data-aos="fade-up">
+    <section class="parallax">
+    <section id="home" class="flex justify-start items-top min-h-100vh" data-aos="fade-up">
         <div class="mx-5 md-mx-l5" data-aos="flip-right">
             <div>
                 <h1 class="white fs-l2 lh-2 md-fs-xl2 md-lh-1 fw-900 " data-aos="fade-right">Music.</h1>
@@ -51,20 +61,18 @@
                 <div class="white opacity-70 fs-s3 mt-3" data-aos="zoom-in">Hello there! 😄</span>
             </div>
         </div>
-        <div class="min-h-100vh">
-            <p  style="text-align:right;"><img class="br-round" src="./Pictures/Misc/.GIF" alt="" data-aos="zoom-in"></p>    
-        </div>
     </section>
+</section>
     <hr>
     <!-- big text -->
-    <section class="p-10 md-py-10" style="text-align: center;">
+    <section class=" p-10 md-py-10" style="text-align: center;">
         <div class="w-100pc md-w-70pc mx-auto py-10">
             <h2 class="white fs-l2 md-fs-xl1 fw-900 lh-2">
                 2021 </h2>
         </div>
     </section>
      <!-- Music -->
-     <section class="p-0 md-p-5">
+     <section class=" p-0 md-p-5">
         <div class="flex flex-wrap">
             <div class="w-100pc md-w-33pc p-10" data-aos="fade-right">
                     <img class="w-100pc" src="./Pictures/Music/one.jpg" alt="" >
@@ -92,7 +100,7 @@
             </div>
         </div>
     </section>
-    <section class="p-0 md-p-5">
+    <section class=" p-0 md-p-5">
         <div class="flex flex-wrap">
             <div class="w-100pc md-w-33pc p-10">
                     <img class="w-100pc" src="./Pictures/Music/one.jpg" alt="" data-aos="fade-up">
