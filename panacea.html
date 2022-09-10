@@ -12,38 +12,57 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
     <!--Meta Tags-->
     <meta name="description" content="Web development at its finest"/>
+
+    <style>
+        body {
+            background: rgb(39, 39, 39);
+        }
+  
+        h1 {
+            position: absolute;
+            top: 40%;
+            left: 40%;
+            font-family: 'Righteous', cursive;
+            background: linear-gradient(to right, #4ACBE0,#4A00E0);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+        }
+    </style>
+
+
 </head>
 <body class="bg-black muli">
 <nav class="w-100pc flex flex-column md-flex-row md-px-10 py-5 bg-black" data-aos="flip-down">      \
       <div class="flex justify-between">
             <a href="./index.html" class="flex items-center p-2 mr-4 no-underline">
-                <img class="max-h-12 w-auto" src="Pictures/Misc/Profilesmall.png" data-aos-duration="1000" data-aos="zoom-in"/>
+                <img class="max-h-12 w-auto" src="Panacea/small.png" data-aos-duration="1000" data-aos="zoom-in"/>
             </a>
             <a data-toggle="toggle-nav" data-target="#nav-items" href="#"
                 class="flex items-center ml-auto md-hidden indigo-lighter opacity-50 hover-opacity-100 ease-300 p-1 m-3">
                 <i data-feather="menu"></i>
             </a>
         </div>
-        <div id="nav-items" class="hidden flex sm-w-100pc flex-column md-flex md-flex-row md-justify-end items-center">
-            <a href="./about.html" class="fs-m2 mx-3 py-3 white no-underline hover-underline">Me</a>
-            <a href="./Projects.html" class="fs-m2 mx-3 py-3 white no-underline hover-underline">Projects</a>
-            <a href="./Music.html" class="fs-m2 mx-3 py-3 white no-underline hover-underline">Music</a>
-            <a href="./blogs.html" class="fs-m2 mx-3 py-3 white no-underline hover-underline">Blog</a>
-            <a href="./Design.html" class="fs-m2 mx-3 py-3 white no-underline hover-underline">Design</a>
-            <a href="./Certificates.html" class="fs-m2 mx-3 py-3 white no-underline hover-underline">Certificates</a>
+        <div id="nav-items" class="hidden flex sm-w-100pc flex-column md-flex md-flex-row md-justify items-center" style="margin-left:15px;">
+            <a href="" class="fs-m2 mx-3 py-3 white no-underline hover-underline">About</a>
+            <a href="" class="fs-m2 mx-3 py-3 white no-underline hover-underline">Team</a>
+            <a href="" class="fs-m2 mx-3 py-3 white no-underline hover-underline">Events</a>
+            <a href="" class="fs-m2 mx-3 py-3 white no-underline hover-underline">Blogs</a>
         </div>
+        <a href="" class="fs-m2 mx-3 py-3 white no-underline hover-underline">         
+            <i data-feather="search"></i>
+        </a>
     </nav>
     <!-- hero section -->
-    <section id="home" class="flex justify-start items-top" style="background-image:url(./Pictures/Misc/home.jpg); background-size:cover; background-repeat: no-repeat; background-position: 80%;" data-aos="fade-up">
+    <section id="home" class="flex justify-start items-top" style="background-image:url(./Panacea/homepage.jpg); background-size:cover; background-repeat: no-repeat; background-position: 80%;" data-aos="fade-up">
         <div class="mx-5 md-mx-l5" data-aos="flip-right">
             <div>
-                <h1 class="white fs-l2 lh-2 md-fs-xl2 md-lh-1 fw-900" data-aos="flip-left">Siddhanth <br>Bhat</h1>
-                <div style="text-align:center;">
-                
-                </div>
-                </div>  
+                <h1 class="white fs-xl5 lh-2 md-lh-1 fw-900" style="  font-family:'Righteous', cursive;" data-aos="flip-left">Panacea</h1>
             </div>
         </div>
         <div class="min-h-100vh max-w-100hh">
