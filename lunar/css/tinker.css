@@ -17,7 +17,7 @@ body {
   place-items: center;
   background-color: var(--bg);
   color: #00c2ff;
-  font-family: "Inter", "DM Sans", Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 *,
@@ -39,6 +39,7 @@ body {
   overflow: hidden;
   background: var(--bg);
   margin: 0;
+  padding: 10px;
 }
 
 .subtitle {
