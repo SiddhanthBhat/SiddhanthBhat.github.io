@@ -2933,8 +2933,10 @@ textarea.form-control-lg {
   display: flex;
   flex-wrap: wrap;
   padding-left: 0;
-  margin-bottom: 0;
-  list-style: none; }
+  margin-bottom: 0px;
+  list-style: none;
+  padding-bottom: 0px; 
+}
 
 .nav-link {
   display: block;
