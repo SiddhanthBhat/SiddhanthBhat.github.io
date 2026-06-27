@@ -3,17 +3,16 @@ import { siteMetadata } from "app/data/siteMetadata";
 export function SocialPill() {
   return (
     <div className="z-30 flex place-items-center space-x-1 rounded-full bg-dark-primary px-3 py-1.5">
-      <a href={siteMetadata.twitter}>
+      <a href={siteMetadata.email}>
         <svg
           className="h-6 w-6 text-gray-400 hover:text-gray-300"
-          viewBox="0 0 24 24"
+          viewBox="0 -3 20 22"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <path
-            d="M9.31 18.25C14.7819 18.25 17.7744 13.4403 17.7744 9.26994C17.7744 9.03682 17.9396 8.83015 18.152 8.73398C18.8803 8.40413 19.8249 7.49943 18.8494 5.97828C18.2031 6.32576 17.6719 6.51562 16.9603 6.74448C15.834 5.47393 13.9495 5.41269 12.7514 6.60761C11.9785 7.37819 11.651 8.52686 11.8907 9.62304C9.49851 9.49618 6.69788 7.73566 5.1875 5.76391C4.39814 7.20632 4.80107 9.05121 6.10822 9.97802C5.63461 9.96302 5.1716 9.82741 4.75807 9.58305V9.62304C4.75807 11.1255 5.75654 12.4191 7.1444 12.7166C6.70672 12.8435 6.24724 12.8622 5.80131 12.771C6.19128 14.0565 7.87974 15.4989 9.15272 15.5245C8.09887 16.4026 6.79761 16.8795 5.45806 16.8782C5.22126 16.8776 4.98504 16.8626 4.75 16.8326C6.11076 17.7588 7.69359 18.25 9.31 18.2475V18.25Z"
+            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"
             stroke="currentColor"
-            strokeWidth="1.5"
+            strokeWidth="1"
             strokeLinecap="round"
             strokeLinejoin="round"
           ></path>
@@ -65,7 +64,7 @@ export function SocialPill() {
         </svg>
         <span className="sr-only">LinkedIn</span>
       </a>
-      <a href={siteMetadata.github}>
+      <a href={"https://github.com/SiddhanthBhat"}>
         <svg
           className="h-6 w-6 text-gray-400 hover:text-gray-300"
           viewBox="0 0 24 24"

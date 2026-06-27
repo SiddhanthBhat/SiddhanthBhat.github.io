@@ -8,7 +8,7 @@ export function SpeakingBento() {
   const [isHovered, setIsHovered] = React.useState(false);
 
   return (
-    <BentoCard linkTo="/speaking" height="h-[276px]">
+    <BentoCard linkTo="https://soundcloud.com/siddhanthbhat" height="h-[276px]">
       <div
         className="group h-full"
         onMouseEnter={() => setIsHovered(true)}
@@ -17,7 +17,7 @@ export function SpeakingBento() {
         <span className="absolute left-1/2 -translate-x-1/2">
           <CirclePattern isHovered={isHovered} />
         </span>
-        <span className="absolute bottom-16 left-1/2 z-20 -translate-x-1/2">
+        <span className="absolute bottom-36 left-1/2 z-20 -translate-x-1/2">
           <AudioIndicator isHovered={isHovered} />
         </span>
         <div className="flex justify-around">
@@ -33,7 +33,6 @@ export function SpeakingBento() {
               stiffness: 150,
             }}
           >
-            <SecondaryPhoto imgSrc="/c3_speaker_head.png" />
           </motion.span>
 
           <motion.span
@@ -47,7 +46,6 @@ export function SpeakingBento() {
               stiffness: 150,
             }}
           >
-            <PrimaryPhoto />
           </motion.span>
 
           <motion.span
@@ -62,16 +60,15 @@ export function SpeakingBento() {
               stiffness: 150,
             }}
           >
-            <SecondaryPhoto imgSrc="/braydon_speaking_head_3.jpeg" />
           </motion.span>
         </div>
         {/* Gradient overlay */}
-        <div className="absolute inset-0 h-full w-full bg-gradient-to-t from-white"></div>
+        <div className="absolute inset-0 h-full w-full bg-gradient-to-t from-black"></div>
         <div className="absolute bottom-6 left-6 z-50 grid h-full grid-cols-2 grid-rows-2 items-end gap-8">
           <div className="col-1 row-start-2 text-balance">
-            <h2 className="mb-2 font-medium">Speaking</h2>
+            <h2 className="mb-2 font-medium"></h2>
             <p className="text-text-secondary">
-              Talks, podcasts, tutorials and more
+              My Music
             </p>
           </div>
         </div>
@@ -311,7 +308,7 @@ function PrimaryPhoto() {
 
       <img
         className="absolute left-1/2 top-1/2 h-[100px] w-[100px] -translate-x-1/2 -translate-y-1/2 transform rounded-full object-cover"
-        src="/braydon_speaking_photo.jpeg"
+        src=""
         alt=""
       />
     </span>

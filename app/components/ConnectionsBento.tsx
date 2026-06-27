@@ -12,7 +12,7 @@ export function ConnectionsBento({
   const controls = useAnimation();
 
   return (
-    <BentoCard height="h-[300px]" linkTo={linkTo}>
+    <BentoCard height="h-[300px]" linkTo={"https://linkedin.com/in/siddhanthbhat"}>
       <div
         className="flex h-full flex-col"
         onMouseEnter={() => controls.start("active")}
@@ -97,7 +97,7 @@ export function ConnectionsBento({
               </svg>
               <img
                 className="absolute left-1/2 top-1/2 h-[100px] w-[100px] -translate-x-1/2 -translate-y-1/2 transform rounded-full"
-                src="/braydon_headshot_3.jpg"
+                src="/portrait.jpg"
                 alt=""
               />
             </div>
@@ -199,9 +199,9 @@ export function ConnectionsBento({
           </span>
         </div>
         <div className="z-20 mt-auto w-full text-balance text-center">
-          <h2 className="text-base font-medium">Connections</h2>
+          <h2 className=" text-xl text-blue-500 font-medium">LinkedIn</h2>
           <p className="mt-1 text-text-secondary">
-            An evolving list of people I&apos;ve met and those I wish to meet.
+            
           </p>
         </div>
       </div>

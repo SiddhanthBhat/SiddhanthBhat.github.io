@@ -1,6 +1,7 @@
 "use client";
+import { text } from "stream/consumers";
 import { BentoCard } from "./BentoCard";
-import { motion } from "framer-motion";
+import { color, motion } from "framer-motion";
 
 const lineVariants = {
   initial: {
@@ -58,7 +59,7 @@ const card2Variants = {
 export function CommunityWallBento() {
   return (
     <motion.div initial="initial" whileHover="hover">
-      <BentoCard linkTo="/community-wall" height="h-[276px]">
+      <BentoCard linkTo="https://scholar.google.com/citations?user=QQ0yGDkAAAAJ&hl=en" height="h-[276px]">
         {/* Dots */}
         <div className="absolute top-0 h-full w-full bg-[radial-gradient(#e5e7eb_1px,transparent_2px)] [background-size:16px_16px] [mask-image:radial-gradient(ellipse_50%_50%_at_50%_50%,#000_70%,transparent_100%)]"></div>
 
@@ -605,9 +606,9 @@ export function CommunityWallBento() {
 
         <div className="grid h-full grid-cols-2 grid-rows-2 items-end gap-8">
           <div className="col-1 z-10 row-start-2">
-            <h2 className="mb-2 font-medium">Community Wall</h2>
-            <p className="text-text-secondary">
-              Let everyone know you were here
+            <h2 className="mb-2 font-medium"></h2>
+            <p className="text-text-secondary text-blue-600">
+              Google Scholar
             </p>
           </div>
         </div>

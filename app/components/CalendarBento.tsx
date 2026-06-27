@@ -37,7 +37,7 @@ export function CalendarBento() {
     0,
   ).getDate();
 
-  const bookingLink = `https://cal.com/braydon-coyer-8ayx8q/30min?month=${currentYear}-${(
+  const bookingLink = `${currentYear}-${(
     currentDate.getMonth() + 1
   )
     .toString()
@@ -63,13 +63,13 @@ export function CalendarBento() {
   };
 
   return (
-    <BentoCard height="h-[220px]" linkTo={bookingLink}>
+    <BentoCard height="h-[220px]" linkTo={"https://cal.eu/siddhanthbhat/30min"}>
       <div className="group grid h-full grid-cols-12 gap-5">
         <div className="col-span-5 text-balance md:col-span-5">
-          <h2 className="mb-4 text-base font-medium">Book a call with me</h2>
-          <p className="mb-2 text-text-secondary">
-            I&apos;d love to chat even if there&apos;s no agenda!
+          <p className="mb-2  text-blue-500">
+            Got an exciting project <br /> or just want to ask <br /> about my research?
           </p>
+          <h2 className="mb-4 text-base font-medium text-blue-500 text-xl">Schedule a call -></h2>
         </div>
         <div className="absolute left-[43%] top-7 transition-all duration-500 ease-out md:-right-14 md:left-auto md:group-hover:-right-12 md:group-hover:top-5">
           <div>

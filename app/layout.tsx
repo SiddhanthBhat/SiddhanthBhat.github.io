@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     description: siteMetadata.description,
     images: [
       {
-        url: "/braydon_coyer_blogfolio_og.jpg", // Your default OG image
+        url: "", // Your default OG image
         width: 1200,
         height: 630,
         alt: siteMetadata.title,
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: siteMetadata.title,
     description: siteMetadata.description,
-    images: ["/braydon_coyer_blogfolio_og.jpg"],
+    images: [""],
   },
 };
 
@@ -57,6 +57,7 @@ export default function RootLayout({
             </div>
             <div className="hidden w-full border-l border-border-primary opacity-75 [background-image:linear-gradient(45deg,theme(colors.border-primary)_12.50%,transparent_12.50%,transparent_50%,theme(colors.border-primary)_50%,theme(colors.border-primary)_62.50%,transparent_62.50%,transparent_100%)] [background-size:5px_5px] lg:block"></div>
           </div>
+          <div className="mt-4"></div>
           <Footer />
         </main>
       </body>

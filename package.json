@@ -1,5 +1,5 @@
 {
-  "name": "braydoncoyer.dev",
+  "name": "Siddhanth Bhat",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -13,11 +13,16 @@
   "dependencies": {
     "@codesandbox/sandpack-react": "^2.20.0",
     "@headlessui/react": "^2.1.8",
+    "@paper-design/shaders-react": "^0.0.76",
+    "@radix-ui/react-slot": "^1.2.4",
     "@supabase/ssr": "^0.5.2",
     "@supabase/supabase-js": "^2.49.1",
+    "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "framer-motion": "^11.3.19",
     "geist": "^1.3.1",
+    "lucide-react": "^1.7.0",
+    "motion": "^12.38.0",
     "next": "15.1.9",
     "next-mdx-remote": "^4.4.1",
     "react": "^18",

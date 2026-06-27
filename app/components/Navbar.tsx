@@ -14,10 +14,10 @@ type NavigationLink = {
 const navigationLinks: readonly NavigationLink[] = [
   { name: "Home", link: "/" },
   { name: "About", link: "/about" },
-  { name: "Blog", link: "/blog" },
-  { name: "Projects", link: "/projects" },
-  { name: "Speaking", link: "/speaking" },
-  { name: "Toolbox", link: "/toolbox" },
+  { name: "Design", link: "/design" },
+  { name: "Research", link: "/research" },
+  { name: "Projects", link: "/toolbox" },
+  { name: "Music", link: "/music" },
 ] as const;
 
 const Navbar: React.FC = () => {
@@ -45,8 +45,8 @@ function DesktopNav() {
         <Link href="/" aria-label="Home">
           <img
             className="h-6 w-6"
-            src="/bcoyerlogo_dark.svg"
-            alt="Braydon's Logo"
+            src="/profileNobg.png"
+            alt="Siddhanth's Logo"
           />
         </Link>
       </div>
@@ -81,7 +81,7 @@ function MobileNav() {
   return (
     <nav
       aria-label="Mobile navigation"
-      className="flex h-16 items-center justify-between gap-2.5 border-b border-border-primary/50 px-3 md:hidden"
+      className="flex h-16 items-center justify-between gap-2.5 border-b border-border-primary px-3 md:hidden"
     >
       <NavLogo onClickCallback={setIsOpen} />
 
@@ -90,6 +90,7 @@ function MobileNav() {
         aria-expanded={isOpen}
         aria-controls="mobile-menu"
         aria-label="Toggle menu"
+        className="text-text-primary"
       />
 
       <Dialog
@@ -103,7 +104,7 @@ function MobileNav() {
             <CloseButton className="rounded-full border border-border-primary p-2">
               <svg viewBox="0 0 16 16" fill="currentColor" className="h-5 w-5">
                 <path
-                  fill="#3C3C3F"
+                  fill="#ffffff"
                   d="M5.28 4.22a.75.75 0 0 0-1.06 1.06L6.94 8l-2.72 2.72a.75.75 0 1 0 1.06 1.06L8 9.06l2.72 2.72a.75.75 0 1 0 1.06-1.06L9.06 8l2.72-2.72a.75.75 0 0 0-1.06-1.06L8 6.94 5.28 4.22Z"
                 ></path>
               </svg>
@@ -138,8 +139,8 @@ const NavLogo: React.FC<NavLogoProps> = ({ onClickCallback }) => {
     <Link href="/" onClick={() => onClickCallback(false)} aria-label="Home">
       <img
         className="h-8 w-8"
-        src="/bcoyerlogo_dark.svg"
-        alt="Braydon's Logo"
+        src="/profileNobg.png"
+        alt="Siddhanth's Logo"
       />
     </Link>
   );

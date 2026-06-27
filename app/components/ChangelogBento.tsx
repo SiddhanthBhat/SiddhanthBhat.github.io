@@ -12,8 +12,8 @@ export function ChangelogBento() {
   };
 
   return (
-    <BentoCard height="h-[276px]" linkTo="/changelog" className="group">
-      <div className="border-px absolute left-1/2 top-0 h-full w-2 -translate-x-1/2 transform border-x border-[#A5AEB8]/10 bg-[#D6DADE]/35"></div>
+    <BentoCard height="h-[276px]" linkTo="https://github.com/SiddhanthBhat" className="group">
+      <div className="border-px absolute left-1/2 top-0 h-full w-2 -translate-x-1/2 transform border-x border-[#A5AEB8]/10 bg-[#D6DAD2]/35"></div>
       {/* Timeline */}
       <div className="relative">
         <div className="absolute left-0 right-0 top-0 transition-transform duration-500 ease-in-out group-hover:-translate-y-6">
@@ -34,12 +34,12 @@ export function ChangelogBento() {
         </div>
       </div>
       {/* Gradient overlay */}
-      <div className="absolute inset-0 h-full w-full bg-gradient-to-t from-white to-transparent"></div>
+      <div className="absolute inset-0 h-full w-full bg-gradient-to-t from-[#003319] to-transparent"></div>
       <div className="z-10 grid h-full grid-cols-2 grid-rows-2 items-end gap-8">
         <div className="col-1 row-start-2">
-          <h2 className="mb-2 font-medium">Changelog</h2>
+          <h2 className="mb-2 font-medium"></h2>
           <p className="text-text-secondary">
-            Here&apos;s what&apos;s new on my site
+            My Github Repositories
           </p>
         </div>
       </div>

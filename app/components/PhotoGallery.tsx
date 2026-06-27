@@ -77,18 +77,18 @@ export const PhotoGallery = ({
       order: 0,
       x: "-320px",
       y: "15px",
-      zIndex: 50, // Highest z-index (on top)
+      zIndex: 10, // Highest z-index (on top)
       direction: "left" as Direction,
-      src: "/braydon_headshot_3.jpg",
+      src: "",
     },
     {
       id: 2,
       order: 1,
       x: "-160px",
       y: "32px",
-      zIndex: 40,
+      zIndex: 20,
       direction: "left" as Direction,
-      src: "/braydon_speaking_photo.jpeg",
+      src: "",
     },
     {
       id: 3,
@@ -97,7 +97,7 @@ export const PhotoGallery = ({
       y: "8px",
       zIndex: 30,
       direction: "right" as Direction,
-      src: "/braydon_headshot_1.jpeg",
+      src: "/profileNobg.png",
     },
     {
       id: 4,
@@ -106,7 +106,7 @@ export const PhotoGallery = ({
       y: "22px",
       zIndex: 20,
       direction: "right" as Direction,
-      src: "/c3_speaker_head.png",
+      src: "",
     },
     {
       id: 5,
@@ -115,7 +115,7 @@ export const PhotoGallery = ({
       y: "44px",
       zIndex: 10, // Lowest z-index (at bottom)
       direction: "left" as Direction,
-      src: "/braydon_headshot_4.jpg",
+      src: "",
     },
   ];
 

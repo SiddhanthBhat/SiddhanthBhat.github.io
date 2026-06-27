@@ -14,13 +14,13 @@ export default {
         mono: ["var(--font-geist-mono)"],
       },
       colors: {
-        "bg-primary": "#F7F7F8",
-        "border-primary": "#D6DADE",
+        "bg-primary": "#161618",
+        "border-primary": "#161618",
         "dark-primary": "#3C3C3F",
         "purple-primary": "#6C47FF",
-        "purple-secondary": "#E6E2F9",
-        "text-primary": colors.slate[900],
-        "text-secondary": "#5E5F6E",
+        "purple-secondary": "#818181",
+        "text-primary": "#ffffff",
+        "text-secondary": "#d5d5d5",
         "text-tertiary": "#A5AEB8",
       },
       typography: {

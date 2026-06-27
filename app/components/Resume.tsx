@@ -4,66 +4,60 @@ import { Timeline } from "./Timeline";
 const resumeData: ResumeData = {
   experiences: [
     {
-      company: "LogicGate",
-      period: "2022 - Present",
+      company: "Formetry Labs",
+      period: "Feb 2024 - Present",
       positions: [
         {
-          title: "Frontend Developer III",
+          title: "Technical Product Manager | Founders Office",
           description: [
-            "I lead feature development on a team by analyzing requirements, designing solutions, and assist in evolving the frontend chapter of our organization.",
+            "Drove the product roadmap for an AI-powered Knowledge Management System, delivering semantic search, summarization, and TTS features for 16 remote client teams via Agile methodologies.",
+            "Directed the integration of Transformer-based NLP models and vector databases, scaling the platform to 2,500+ monthly active users with continuous integration and deployment pipelines.",
+            "Spearheaded a reinforcement-based re-prompting framework that reduced factual inconsistencies in model outputs by 25%, improving reliability across benchmark datasets and user satisfaction.",
+            "Created and managed a self hosted multi-agent workflow automation via n8n and oversaw the full-stack deployment of two production applications from prototype to release.",
+            "Secured over $250,000 in seed funding and infrastructure support from investors including Google & NVIDIA.",
+
           ],
         },
         {
-          title: "Frontend Developer II",
+          title: "Software Development Engineer and Researcher",
           description: [
-            "I joined LogicGate and immediately took charge of feature development on my team while also assisting other frontend developers in the organization.",
-          ],
-        },
-      ],
-    },
-    {
-      company: "Cognizant",
-      period: "2019 - 2021",
-      positions: [
-        {
-          title: "Senior Fullstack Developer",
-          description: [
-            "I designed and developed full-stack RESTful microservices using Netflix OSS, Java, Spring Boot, SQL, Angular, React, and Vue.",
-            "I led development teams, utilizing extreme programming principles such as agile, test-driven development, and paired programming.",
-            "I spearheaded the information architecture and developed a reusable UI component library for healthcare clients.",
-            "I led over 650 developers through a monthly enablement process, training them for client work on the Digital Engineering stack.",
+            "Worked at the Research team at Formetry Labs to review and document the latest papers in the field to update in-house models and solution methodologies.",
+            "Managed plans to build the frontend stack along with supplementary requirements in DevOps and codebase repository management."
+            
           ],
         },
       ],
     },
     {
-      company: "projekt202",
-      period: "2018 - 2019",
+      company: "Manipal University",
+      period: "Mar 2023 - Feb 2024",
       positions: [
         {
-          title: "UI Developer",
+          title: "Student Research Assistant",
           description: [
-            "I assisted in developing a reusable UI component library and worked closely with a multi-million dollar airline client to gather requirements.",
-            "My responsibility included developing solutions for enterprise clients worth millions of dollars, using Angular 7 for the frontend.",
+            "Pioneered research on GAN and State Space Model (SSM) architectures for novel image generation and analysis, music production and genome sequencing directly contributing to 3 publications in Q1 peer-reviewed journals.",
+            "Engineered and deployed Large Language Transformers and Autoencoder-based neural networks for text classification, achieving state of the art accuracy on proprietary datasets.",
+            "Executed end-to-end exploratory data analysis, literature review and visualisation across large-scale, multi-domain datasets to support the experimental validation of 9 distinct research papers.",
           ],
         },
       ],
     },
     {
-      company: "Major 4 Apps",
-      period: "2018 - 2019",
+      company: "MuSigma",
+      period: " June 2023 - Jul 2023",
       positions: [
         {
-          title: "Founder & Developer",
+          title: "SDE Intern",
           description: [
-            "I developed custom applications for clients, designed, developed, tested, and supported mobile applications on iOS and Android platforms.",
-            "My mobile game ranked among the top 200 on the Amazon App Store.",
+            "Developed and designed a responsive React-based web dashboard to visualize key metrics for a major client initiative targeting a 20% revenue growth.",
+            "Conducted data analysis and extensive data wrangling using Python libraries to clean, optimize, and structure legacy client datasets.",
+            "Attended 3 client presentations and strategy meetings and contributed to pitch sessions to refine proposals.",
           ],
         },
       ],
     },
   ],
-  avatarUrl: "/braydon_headshot_1.jpeg",
+  avatarUrl: "/profileNobg.png",
 };
 
 export function Resume() {
@@ -78,8 +72,8 @@ export function Resume() {
                 className="grid grid-cols-[1fr,5fr] gap-6 py-12 first:pt-0 last:pb-0 md:grid-cols-[2fr,1fr,4fr]"
               >
                 <div className="hidden md:block">
-                  <h3 className="text-xl font-bold">{experience.company}</h3>
-                  <p className="text-sm text-gray-600">{experience.period}</p>
+                  <h3 className="text-xl text-blue-500 font-bold">{experience.company}</h3>
+                  <p className="text-sm text-white">{experience.period}</p>
                 </div>
 
                 <div />
@@ -90,13 +84,13 @@ export function Resume() {
                       key={`${experience.company}-${index}`}
                       className="space-y-4"
                     >
-                      <h4 className="text-lg font-semibold">
+                      <h4 className="text-lg text-blue-500 font-bold">
                         {position.title}
                       </h4>
                       <div className="space-y-3">
                         {position.description.map((desc, i) => (
-                          <p key={i} className="text-gray-600">
-                            {desc}
+                          <p key={i} className="text-white">
+                            ◦ {desc}
                           </p>
                         ))}
                       </div>

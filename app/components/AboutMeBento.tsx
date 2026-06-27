@@ -5,13 +5,13 @@ export function AboutMeBento({ linkTo }: { linkTo?: string }) {
   const timeOfDayGreeting = getTimeOfDayGreeting();
 
   return (
-    <BentoCard height="h-[275px] md:h-[304px] lg:h-[220px]" linkTo={linkTo}>
+    <BentoCard height="h-[275px] md:h-[304px] lg:h-[220px]">
       <div className="group flex h-full">
         <div className="text-balance">
-          <h2 className="mb-4 text-base font-medium">Learn more about me</h2>
-          <p className="mb-2 text-balance pr-1 text-text-secondary md:pr-4">
-            {timeOfDayGreeting} <br />
-            I&apos;m Braydon, an experienced front-end developer.
+          <h2 className="mb-4 text-base font-medium"></h2>
+          <p className="mb-2 text-balance pr-1 text-blue-500 md:pr-4">
+           <span className="font-semibold text-xl">Hi there!</span>  <br />
+            I'm all about building connections and collaborating on cool projects. Don't hesitate to reach out
           </p>
         </div>
         <div className="relative">
@@ -28,7 +28,7 @@ export function AboutMeBento({ linkTo }: { linkTo?: string }) {
           </div>
           <img
             className="absolute -top-1 left-0 h-[270px] w-[180px] rotate-[8deg] rounded-lg object-cover shadow transition-all duration-500 group-hover:rotate-[4deg] group-hover:scale-105"
-            src="/braydon_headshot_1.jpeg"
+            src="/photo-long.png"
             alt="A headshot"
           />
         </div>

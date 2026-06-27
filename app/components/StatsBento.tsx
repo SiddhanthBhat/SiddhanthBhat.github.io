@@ -148,7 +148,7 @@ function TrendLineWithIndicator({
       <motion.circle
         cx={animatedX}
         cy={animatedY}
-        r="2.5"
+        r="2.4"
         fill="rgb(139, 92, 246)"
         vectorEffect="non-scaling-stroke"
         initial={{ scale: 0, opacity: 0 }}
@@ -218,7 +218,7 @@ export function StatsBento() {
       onMouseLeave={handleMouseLeave}
       onMouseMove={handleMouseMove}
     >
-      <BentoCard height="h-[220px]" className="group" linkTo="/stats">
+      <BentoCard height="h-[220px]" className="group" linkTo="https://drive.google.com/file/d/1fgNe99qid9epwUdqotLwW_BcnqOKiew_/view?usp=sharing">
         {/* Title */}
         <motion.h2
           className="relative z-10 font-medium text-text-primary"
@@ -226,7 +226,7 @@ export function StatsBento() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.4 }}
         >
-          Stats
+          Resume PDF
         </motion.h2>
 
         {/* Background grid */}

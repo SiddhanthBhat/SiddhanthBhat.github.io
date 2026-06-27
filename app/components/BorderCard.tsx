@@ -3,7 +3,7 @@ type BorderCardProps = {
 };
 export function BorderCard({ children }: BorderCardProps) {
   return (
-    <div className="flex h-full min-h-[154px] flex-col justify-between rounded-[20px] border border-border-primary p-6">
+    <div className="flex h-full min-h-[154px] flex-col justify-between rounded-[20px]  bg-bg-primary hover:bg-[#212020] hover:text-white border border-border-primary p-6">
       {children}
     </div>
   );

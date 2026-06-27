@@ -29,7 +29,7 @@ export async function GET(request: NextRequest) {
     }
 
     // Read the overlay image
-    const overlayPath = path.join(publicDir, "braydoncoyer_og_overlay.png");
+    const overlayPath = path.join(publicDir, "");
     const overlayBuffer = fs.readFileSync(overlayPath);
     const overlaySrc = `data:image/png;base64,${overlayBuffer.toString("base64")}`;
 

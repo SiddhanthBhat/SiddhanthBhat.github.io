@@ -38,7 +38,7 @@ export function ContentLink({
       <p className="text-text-secondary">{description}</p>
       {href ? (
         <a
-          className="mt-2 flex items-center text-sm font-medium text-indigo-600"
+          className="mt-2 flex items-center text-sm font-medium text-blue-600"
           href={href}
         >
           View

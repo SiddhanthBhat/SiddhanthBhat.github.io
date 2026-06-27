@@ -9,14 +9,14 @@ import { CirclePattern } from "./SpeakingBento";
 import { getCurrentlyPlaying } from "@/app/db/actions";
 
 const favorite: CurrentlyPlaying = {
-  artist: "Bear McCreary",
+  artist: "Sun Room",
   albumName: "The Lord of the Rings: The Rings of Power",
   albumId: "2Oe6kYDU9YQhun0YrXL9eV",
   artistId: "2ifvIECHAlEgPMBuBOJ0lG",
-  title: "The Sun Yet Shines",
+  title: "Sol Del Sur",
   albumImageUrl:
-    "https://i.scdn.co/image/ab67616d0000b2735cf2a1df961de6e7d7d3c113",
-  songUrl: "https://open.spotify.com/track/5hcRWT88VLlbhEMh4efCMy",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKZE5EvUDnKyGL8BbV6O4m3BVoPN2xOY2ZudfWjV4Arg&s=10",
+  songUrl: "https://open.spotify.com/track/61EuOHKJepAeaXUTGUqfH4?si=c196170ec8224274",
   isPlaying: false,
 };
 
@@ -44,8 +44,9 @@ export function CurrentlyPlayingBento() {
   }
 
   return (
-    <BentoCard height="h-[300px]">
-      <div className="flex flex-col">
+    <BentoCard height="h-[300px] text-white">
+      <div className="flex flex-col ">
+        <a className="font-semibold" href={currentTrack.songUrl}>
         <div className="z-10 h-full">
           <div className="flex h-full flex-col justify-between">
             <h2 className="mb-2 text-base font-medium">
@@ -54,23 +55,13 @@ export function CurrentlyPlayingBento() {
             <p className="max-h-[150px] overflow-hidden text-base text-text-secondary">
               <span className="line-clamp-4 text-ellipsis">
                 I&apos;m listening to{" "}
-                <a className="font-semibold" href={currentTrack.songUrl}>
+                
                   {currentTrack.title}
-                </a>{" "}
+                
                 by{" "}
-                <a
-                  className="font-semibold"
-                  href={`https://open.spotify.com/artist/${currentTrack.artistId}`}
-                >
+                
                   {currentTrack.artist}
-                </a>{" "}
-                from the album{" "}
-                <a
-                  className="font-semibold"
-                  href={`https://open.spotify.com/album/${currentTrack.albumId}`}
-                >
-                  {currentTrack.albumName}
-                </a>
+                
               </span>
             </p>
           </div>
@@ -90,6 +81,7 @@ export function CurrentlyPlayingBento() {
         <span className="absolute -bottom-32 left-1/2 -translate-x-1/2">
           <CirclePattern />
         </span>
+        </a>
       </div>
     </BentoCard>
   );
